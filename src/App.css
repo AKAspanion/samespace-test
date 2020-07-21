@@ -1,0 +1,45 @@
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.App,
+.icon__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon__wrapper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #252728;
+}
+
+circle {
+  fill: transparent;
+  stroke: limegreen;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center center;
+}
+
+.icon__text {
+  top: 48%;
+  left: 49%;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.btn-toggle {
+  top: -40%;
+
+  position: absolute;
+}
